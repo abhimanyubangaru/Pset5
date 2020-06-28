@@ -7,7 +7,7 @@ This is a temporary script file.
 
 # 6.0001/6.00 Problem Set 5 - RSS Feed Filter
 # Name:
-# Collaborators:
+# Collaborators: Abhi and Srikar
 # Time:
 
 import feedparser
@@ -229,4 +229,3 @@ if __name__ == '__main__':
     t = threading.Thread(target=main_thread, args=(root,))
     t.start()
     root.mainloop()
-
